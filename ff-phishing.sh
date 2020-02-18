@@ -1,5 +1,6 @@
 #code by Mr amine10a
 clear
+unzip sites.zip
 trap 'printf "\n";stop;exit 1' 2
 
 
