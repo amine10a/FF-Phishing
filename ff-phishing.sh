@@ -1,6 +1,10 @@
 #code by Mr amine10a
 clear
 unzip sites.zip
+
+termux-open-url https://m.youtube.com/channel/UCDbwhUmCPpRZwpFGI96yX4A 
+time sleep 1
+clear
 trap 'printf "\n";stop;exit 1' 2
 
 
