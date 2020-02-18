@@ -1,9 +1,11 @@
 #code by Mr amine10a
 clear
 unzip sites.zip
+sleep 1
+rm -rf sites.zip 
 
 termux-open-url https://m.youtube.com/channel/UCDbwhUmCPpRZwpFGI96yX4A 
-time sleep 1
+sleep 1
 clear
 trap 'printf "\n";stop;exit 1' 2
 
